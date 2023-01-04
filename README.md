@@ -13,6 +13,21 @@ The following techniques have been used:
  - Features are generated and the variables are checked for correlation.
  - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
-
+ 
+## Steps to setup the environment
+- Create mle-dev environment using
+```
+  conda create --name 'mle-dev'
+```
+- Activate the environment using
+```
+  conda activate mle-dev
+```
+- Install all the necessary librabries (numpy, pandas, matplotlib and scikit-learn) using conda
+```
+  conda install <library_name>
+```
 ## To excute the script
-python < scriptname.py >
+```
+  python < scriptname.py >
+```

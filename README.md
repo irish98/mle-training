@@ -17,7 +17,7 @@ The following techniques have been used:
  - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
-## To excute the script
+## Steps to install packages and execute the script
 This code has python files refactored as scripts and are able to install as a package.
 All the python scripts are available at `src/housing_price`.
 This folder contains `datasets` which has the required datsets along with train and test datasets as csv files.

@@ -1,2 +1,0 @@
-housing_price
-tests

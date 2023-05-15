@@ -17,6 +17,25 @@ The following techniques have been used:
  - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
+ ## To create the environment
+```
+conda env create -f env.yml
+conda activate mle-dev
+```
+
+## To install the housinglib library
+first download the wheel file from the repo, then run the following command.
+```
+pip install housinglib-0.1.0-py3-none-any.whl
+```
+or run this command to install using sdist file
+```
+python3 setup.py install
+```
+import it by using
+```
+import housinglib
+
 ## Steps to install packages and execute the script
 This code has python files refactored as scripts and are able to install as a package.
 All the python scripts are available at `src/housing_price`.

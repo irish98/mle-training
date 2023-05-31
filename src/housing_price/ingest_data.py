@@ -73,6 +73,7 @@ if __name__ == "__main__":
         )
 
     path = parser.parse_args().path
+    print(path)
 
     fetch_housing_data()
     housing = load_housing_data()
